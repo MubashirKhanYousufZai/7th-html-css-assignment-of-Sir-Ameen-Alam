@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="main.css">
+    <title>p-7</title>
+<body>
+    <h2>Form</h2>
+    <form method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="name">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <input type="submit" value="submit">
+    </form>
+    <h2>Your Review</h2>
+    <form method="post">
+        <label for="source">How did you know about us?</label>
+        <select id="about" name="about" required>
+            <option value="Google">Google</option>
+            <option value="Youtube">Youtube</option>
+            <option value="Facebook">Facebook</option>
+            <option value="Instagram">Instagram</option>
+            <option value="Tiktok">Tiktok</option>
+        </select><br/><br/>
+
+        <label for="visitAgain">Would you like to visit us again?</label>
+        <select id="visitAgain" name="visitAgain" required>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+        </select><br/><br/>
+
+        <label for="comments">Comment</label>
+        <textarea id="comments" name="comments" rows="2"></textarea><br/><br/>
+
+        <div>
+            <input type="checkbox" id="signup" name="signup">
+            <label for="signup">Sign up for email updates</label>
+        </div><br/>
+
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
